@@ -9,10 +9,7 @@ class Solution {
         {
            return n2; 
         }
-       else if(n==3)
-        {
-            return n3;
-        }
+      
         else
         {
             for(int i=2;i<=n;i++)
