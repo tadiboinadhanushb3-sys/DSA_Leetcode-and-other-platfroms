@@ -5,7 +5,9 @@ class Solution {
         for(int i=0;i<s.length();i++)
         {
             int j=t.indexOf(s.charAt(i));
-            sum+=Math.abs(i-j);
+            
+                        sum+=Math.abs(i-j);
+            
             
         }
         return sum;
