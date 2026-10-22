@@ -5,12 +5,15 @@ class Solution {
         {
             for(int j=i+1;j<nums.length;j++)
             {
+                if((nums[j]-nums[i]==diff))
+                {
                 for(int k=j+1;k<nums.length;k++)
                 {
-                    if((nums[j]-nums[i]==diff)&&(nums[k]-nums[j]==diff))
+                    if((nums[k]-nums[j]==diff))
                     {
                         c++;
                     }
+                }
                 }
             }
         }
