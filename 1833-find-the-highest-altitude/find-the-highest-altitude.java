@@ -10,12 +10,8 @@ class Solution {
             k++;
         }
         Arrays.sort(a);
-        int m=0;
-        for(int i=0;i<a.length;i++)
-        {
-     m=Math.max(m,a[i]);
-        }
-        return m;
+    
+        return a[n];
     }
 }
 
