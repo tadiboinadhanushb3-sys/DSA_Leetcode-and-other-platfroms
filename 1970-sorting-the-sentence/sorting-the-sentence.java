@@ -8,7 +8,7 @@ class Solution {
         {
             String a=w[i];
             String t=String.valueOf(i1);
-                if(a.endsWith(t))
+                if(a.contains(t))
                 {
                 res+=a.substring(0,a.length()-1)+" ";
                 }
